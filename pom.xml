@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-    <name>Conflict-free Replicated Data Types Aggregator</name>
+  <name>Conflict-free Replicated Data Types Aggregator</name>
 
-    <groupId>uk.ac.soton.ecs.fl4g12.crdt</groupId>
-    <artifactId>aggregator</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
+  <groupId>uk.ac.soton.ecs.fl4g12.crdt</groupId>
+  <artifactId>aggregator</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
-    <modules>
-        <module>parent</module>
-        <module>datatypes</module>
-    </modules>
+  <description>
+    Aggregator for Fabrizio Lungo's COMP3200 project providing a framework for the implementation
+    and replication of Conflict Free Replicated Data Types. This aggregator is used to build all of
+    the components contained within the project together.
+  </description>
+
+  <modules>
+    <module>parent</module>
+    <module>datatypes</module>
+  </modules>
 </project>
