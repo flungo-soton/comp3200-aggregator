@@ -1,6 +1,6 @@
 [submodule "parent"]
 	path = parent
-	url = git@gitlab.com:flungo-comp3200/parent.git
+	url = ../parent.git
 [submodule "datatypes"]
 	path = datatypes
-	url = git@gitlab.com:flungo-comp3200/datatypes.git
+	url = ../datatypes.git
